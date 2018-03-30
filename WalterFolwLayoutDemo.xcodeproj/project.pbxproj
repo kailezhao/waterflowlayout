@@ -12,6 +12,7 @@
 		00B7D8B1206B74930079F4F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00B7D8B0206B74930079F4F5 /* Assets.xcassets */; };
 		00B7D8B4206B74930079F4F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00B7D8B2206B74930079F4F5 /* LaunchScreen.storyboard */; };
 		00B7D8B7206B74930079F4F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B7D8B6206B74930079F4F5 /* main.m */; };
+		00B7D8BF206B75BC0079F4F5 /* KLWaterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B7D8BE206B75BC0079F4F5 /* KLWaterFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		00B7D8B3206B74930079F4F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00B7D8B5206B74930079F4F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00B7D8B6206B74930079F4F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00B7D8BD206B75BC0079F4F5 /* KLWaterFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLWaterFlowLayout.h; sourceTree = "<group>"; };
+		00B7D8BE206B75BC0079F4F5 /* KLWaterFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLWaterFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 				00B7D8A8206B74930079F4F5 /* AppDelegate.m */,
 				00B7D8AA206B74930079F4F5 /* ViewController.h */,
 				00B7D8AB206B74930079F4F5 /* ViewController.m */,
+				00B7D8BD206B75BC0079F4F5 /* KLWaterFlowLayout.h */,
+				00B7D8BE206B75BC0079F4F5 /* KLWaterFlowLayout.m */,
 				00B7D8B0206B74930079F4F5 /* Assets.xcassets */,
 				00B7D8B2206B74930079F4F5 /* LaunchScreen.storyboard */,
 				00B7D8B5206B74930079F4F5 /* Info.plist */,
@@ -140,6 +145,7 @@
 			files = (
 				00B7D8AC206B74930079F4F5 /* ViewController.m in Sources */,
 				00B7D8B7206B74930079F4F5 /* main.m in Sources */,
+				00B7D8BF206B75BC0079F4F5 /* KLWaterFlowLayout.m in Sources */,
 				00B7D8A9206B74930079F4F5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +275,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6AJ2E3Z5EP;
 				INFOPLIST_FILE = WalterFolwLayoutDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zkl.SwiftDemo.WalterFolwLayoutDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -283,6 +290,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6AJ2E3Z5EP;
 				INFOPLIST_FILE = WalterFolwLayoutDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zkl.SwiftDemo.WalterFolwLayoutDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
